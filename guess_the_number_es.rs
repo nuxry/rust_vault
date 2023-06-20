@@ -1,4 +1,4 @@
-// Guess The Number: Extreme Eition (Should not run!)
+// Guess The Number: Extreme Edition (Should not run!)
 // 11.06.2023
 
 use rand::Rng;
@@ -26,7 +26,7 @@ fn punish() {
     }
 }
 
-fn game() {
+pub fn game() {
     println!("Guess the number!");
 
     let secret_number = rand::thread_rng().gen_range(1..=10);
@@ -58,6 +58,3 @@ fn game() {
     }
 }
 
-fn main() {
-    game();
-}

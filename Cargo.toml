@@ -8,6 +8,6 @@ edition = "2021"
 [dependencies]
 rand = "0.8.5"
 
-[[bin]]
+[lib]
 name = "rust_vault"
-path = "main.rs"
+path = "src/lib.rs"
